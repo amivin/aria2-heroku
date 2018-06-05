@@ -18,7 +18,7 @@ cd $VENDOR_DIR
 mkdir -p aria2c
 cd aria2c
 wget -q $DOWNLOAD_URL
-tar jxvf $FILE.tar.bz2
+tar jxf $FILE.tar.bz2
 mv $FILE/* .
 
 echo "exporting PATH" | indent
