@@ -20,6 +20,7 @@ cd aria2c
 wget -q $DOWNLOAD_URL
 tar jxf $FILE.tar.bz2
 mv $FILE/* .
+rm -rf $FILE $FILE.tar.bz2
 
 echo "exporting PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/aria2c.sh"
