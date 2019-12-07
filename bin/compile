@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install aria2c"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-FILE="aria2-1.34.0-linux-gnu-64bit-build1"
+FILE="aria2-1.35.0-linux-gnu-32bit-build1"
 DOWNLOAD_URL="https://github.com/q3aql/aria2-static-builds/releases/download/v1.34.0/$FILE.tar.bz2"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
